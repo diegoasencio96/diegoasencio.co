@@ -1,0 +1,40 @@
+{% extends "admin/base.html" %}
+{% load i18n admin_static suit_tags %}
+
+{% block extrahead %}
+<script>window.CKEDITOR_BASEPATH = '/static/ckeditor/ckeditor/';</script>
+{{ block.super }}
+{% endblock %}
+
+{% block extrastyle %}
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+    <link href='{% static "suit/css/font-awesome.min.css" %}' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="/favicon.ico">
+{% endblock %}
+
+
+{% block branding %}
+<div align=center>
+    <h1 id="site-name" style="color: #fff;">ADMINISTRACIÓN WEBADMIN v1.0</h1><br>
+</div>
+{% endblock %}
+
+{% block welcome-msg %}
+    <span class="welcome">
+        {% trans 'Welcome,' %}
+        <strong>{% firstof user.get_short_name user.get_username %}</strong>.
+    </span>
+{% endblock %}
+
+
+{% block title %}{{ _('PANEL DE ADMINISTRACIÓN') }} | {{ _('WEBADMIN v1.0') }}{% endblock %}
+{% block footer_links %}
+    Soporte: <a href="mailto:soporte@diegoasencio.co" target="_blank">soporte@diegoasencio.co</a>
+{% endblock %}
+
+{% block copyright %}
+    WebAdmin v1.0 - Personal WebSite
+    <span class="hidden-md-down"></span>
+    <br>Desarrollado por Diego A Asencio C.
+    <br>Todos los derechos reservados - 2019
+{% endblock %}
