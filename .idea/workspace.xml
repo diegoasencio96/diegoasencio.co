@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36cd6a88-703c-4442-b0d1-8f517418a69b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/webadmin/landing/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/webadmin/landing/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webadmin/landing/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webadmin/landing/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webadmin/landing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webadmin/landing/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webadmin/templates/landing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webadmin/templates/landing/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webadmin/webadmin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webadmin/webadmin/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webadmin/templates/landing/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -75,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webadmin/webadmin/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+            <state relative-caret-position="211">
+              <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -102,12 +99,12 @@
         <option value="$PROJECT_DIR$/webadmin/templates/admin/login.html" />
         <option value="$PROJECT_DIR$/webadmin/templates/admin/base.html" />
         <option value="$PROJECT_DIR$/webadmin/requirements.txt" />
-        <option value="$PROJECT_DIR$/webadmin/webadmin/settings.py" />
         <option value="$PROJECT_DIR$/webadmin/webadmin/apps.py" />
         <option value="$PROJECT_DIR$/webadmin/landing/admin.py" />
         <option value="$PROJECT_DIR$/webadmin/landing/models.py" />
         <option value="$PROJECT_DIR$/webadmin/landing/views.py" />
         <option value="$PROJECT_DIR$/webadmin/templates/landing/index.html" />
+        <option value="$PROJECT_DIR$/webadmin/webadmin/settings.py" />
       </list>
     </option>
   </component>
@@ -200,12 +197,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561817105360</updated>
-      <workItem from="1561817108834" duration="12980000" />
+      <workItem from="1561817108834" duration="13699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12980000" />
+    <option name="totallyTimeSpent" value="13699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -274,13 +271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webadmin/webadmin/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webadmin/webadmin/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -319,6 +309,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="775" column="60" selection-start-line="775" selection-start-column="60" selection-end-line="775" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webadmin/webadmin/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
         </state>
       </provider>
     </entry>

@@ -25,7 +25,7 @@ SECRET_KEY = 'qntb524f*9cew!#ds+gmei9(&fur@fsr_9kab9#borv12mz)3('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['67.205.153.9', 'diegoasencio.co', 'www.diegoasencio.co']
 
 
 # Application definition
