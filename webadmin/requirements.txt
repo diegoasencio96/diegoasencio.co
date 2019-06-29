@@ -3,3 +3,4 @@ django==2.2.2
 pillow
 django-ckeditor
 django-cleanup
+django-admin-sortable2

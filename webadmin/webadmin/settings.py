@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ckeditor',
+    'adminsortable2',
     'django_cleanup.apps.CleanupConfig',
     'landing.apps.LandingConfig',
 ]
@@ -209,3 +210,28 @@ CKEDITOR_CONFIGS = {
     }
 }
 
+
+'''
+ADMIN_REORDER = (
+    # Rename app
+    {
+        'app': 'auth', 'label': 'Usuarios',
+        'models': ('auth.User',
+                   'auth.Group',
+        )
+    },
+    {
+        'app': 'landing', 'label': 'Landing Page',
+        'models': ('landing' + '.Service',)
+    },
+    {
+        'app': 'landing', 'label': 'Reportes',
+        'models': ('admin.LogEntry',)
+    },
+    {
+        'app': 'landing', 'label': 'Configuración',
+        'models': ('landing' + '.SiteConfig',)
+                   #'rest_framework_api_key.apikey')
+    },
+)
+'''

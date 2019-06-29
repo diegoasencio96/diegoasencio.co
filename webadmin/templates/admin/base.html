@@ -2,11 +2,12 @@
 {% load i18n admin_static suit_tags %}
 
 {% block extrahead %}
-<script>window.CKEDITOR_BASEPATH = '/static/ckeditor/ckeditor/';</script>
 {{ block.super }}
+<script>window.CKEDITOR_BASEPATH = '/static/ckeditor/ckeditor/';</script>
 {% endblock %}
 
 {% block extrastyle %}
+    {{ block.super }}
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
     <link href='{% static "suit/css/font-awesome.min.css" %}' rel='stylesheet' type='text/css'>
     <link rel="icon" href="/favicon.ico">
