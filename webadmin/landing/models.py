@@ -40,7 +40,7 @@ class SocialNetwork(models.Model):
 
 class TechnicalSkill(models.Model):
     name = models.CharField(max_length=30, verbose_name="Nombre")
-    score = models.FloatField(verbose_name="Puntaje", default=0.0)
+    score = models.PositiveIntegerField(verbose_name="Puntaje (%)", default=0)
     order = models.PositiveIntegerField(verbose_name="Orden", default=0)
 
     def __str__(self):
@@ -54,7 +54,7 @@ class TechnicalSkill(models.Model):
 
 class ProfessionalSkill(models.Model):
     name = models.CharField(max_length=30, verbose_name="Nombre")
-    score = models.FloatField(verbose_name="Puntaje", default=0.0)
+    score = models.PositiveIntegerField(verbose_name="Puntaje (%)", default=0)
     order = models.PositiveIntegerField(verbose_name="Orden", default=0)
 
     def __str__(self):

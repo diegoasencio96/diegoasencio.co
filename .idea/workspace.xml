@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36cd6a88-703c-4442-b0d1-8f517418a69b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/webadmin/landing/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/webadmin/landing/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webadmin/landing/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webadmin/landing/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webadmin/landing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webadmin/landing/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webadmin/templates/landing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webadmin/templates/landing/index.html" afterDir="false" />
@@ -23,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webadmin/landing/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -44,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webadmin/templates/landing/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="192" column="34" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
+            <state relative-caret-position="136">
+              <caret line="775" column="60" selection-start-line="775" selection-start-column="60" selection-end-line="775" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -56,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webadmin/landing/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="210">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="25" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -68,11 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webadmin/landing/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -88,6 +86,12 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>blog</find>
+      <find>mh-con</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -99,11 +103,11 @@
         <option value="$PROJECT_DIR$/webadmin/templates/admin/base.html" />
         <option value="$PROJECT_DIR$/webadmin/requirements.txt" />
         <option value="$PROJECT_DIR$/webadmin/webadmin/settings.py" />
-        <option value="$PROJECT_DIR$/webadmin/landing/admin.py" />
         <option value="$PROJECT_DIR$/webadmin/webadmin/apps.py" />
+        <option value="$PROJECT_DIR$/webadmin/landing/admin.py" />
+        <option value="$PROJECT_DIR$/webadmin/landing/models.py" />
         <option value="$PROJECT_DIR$/webadmin/landing/views.py" />
         <option value="$PROJECT_DIR$/webadmin/templates/landing/index.html" />
-        <option value="$PROJECT_DIR$/webadmin/landing/models.py" />
       </list>
     </option>
   </component>
@@ -196,25 +200,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561817105360</updated>
-      <workItem from="1561817108834" duration="7519000" />
+      <workItem from="1561817108834" duration="12980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7519000" />
+    <option name="totallyTimeSpent" value="12980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962063" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -277,16 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webadmin/landing/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webadmin/webadmin/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -297,10 +291,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webadmin/landing/views.py">
+    <entry file="file://$PROJECT_DIR$/webadmin/landing/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webadmin/landing/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webadmin/landing/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -309,15 +317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webadmin/templates/landing/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="192" column="34" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webadmin/landing/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
+        <state relative-caret-position="136">
+          <caret line="775" column="60" selection-start-line="775" selection-start-column="60" selection-end-line="775" selection-end-column="60" />
         </state>
       </provider>
     </entry>
