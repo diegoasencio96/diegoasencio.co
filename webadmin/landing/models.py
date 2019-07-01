@@ -1,5 +1,6 @@
 from django.db import models
 
+from django.template.defaultfilters import slugify
 # Create your models here.
 
 
@@ -99,7 +100,12 @@ class Service(models.Model):
 
 class ProjectCategory(models.Model):
     title = models.CharField(max_length=30, verbose_name="Título")
+    slug = models.CharField(max_length=200, blank=True, verbose_name="Slug")
     order = models.PositiveIntegerField(verbose_name="Orden", default=0)
+
+    def save(self, *args, **kwargs):
+        self.slug = slugify(self.title)
+        super(ProjectCategory, self).save(*args, **kwargs)
 
     def __str__(self):
         return '{}'.format(self.title)
@@ -165,7 +171,7 @@ class Education(models.Model):
 
 class WorkExperience(models.Model):
     title = models.CharField(max_length=60, verbose_name="Título")
-    institution = models.ForeignKey(Institution, verbose_name="Institución educativa", on_delete=models.PROTECT)
+    institution = models.ForeignKey(Institution, verbose_name="Institución Laboral", on_delete=models.PROTECT)
     start_date = models.DateField(verbose_name="Fecha de inicio")
     end_date = models.DateField(verbose_name="Fecha de fin")
     description = models.TextField(max_length=300, verbose_name="Descripción")
@@ -193,8 +199,8 @@ class Portfolio(models.Model):
 
     class Meta:
         ordering = ['order']
-        verbose_name = 'Experiencia laboral'
-        verbose_name_plural = 'Experiencias laborales'
+        verbose_name = 'Portafolio'
+        verbose_name_plural = 'Portafolio'
 
 
 class ClientReview(models.Model):
