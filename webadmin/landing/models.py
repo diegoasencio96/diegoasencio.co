@@ -191,6 +191,7 @@ class Portfolio(models.Model):
     title = models.CharField(max_length=60, verbose_name="Título")
     category = models.ForeignKey(ProjectCategory, verbose_name="Categoría de proyecto", on_delete=models.PROTECT)
     description = models.TextField(max_length=300, verbose_name="Descripción")
+    url = models.URLField(max_length=60, verbose_name="URL")
     technical_skills = models.ManyToManyField(TechnicalSkill, verbose_name="Tecnologías o herramientas")
     order = models.PositiveIntegerField(verbose_name="Orden", default=0)
 
@@ -204,14 +205,14 @@ class Portfolio(models.Model):
 
 
 class ClientReview(models.Model):
-    image = models.ImageField(upload_to="client_review/", verbose_name="Imágen")
-    name = models.CharField(max_length=60, verbose_name="Nombre")
-    job_title = models.CharField(max_length=80, verbose_name="Cargo")
+    client_image = models.ImageField(upload_to="client_review/", verbose_name="Imágen")
+    client_name = models.CharField(max_length=60, verbose_name="Nombre del cliente")
+    client_job_title = models.CharField(max_length=80, verbose_name="Cargo del cliente")
     review = models.TextField(max_length=300, verbose_name="Comentario")
     order = models.PositiveIntegerField(verbose_name="Orden", default=0)
 
     def __str__(self):
-        return '{}'.format(self.name)
+        return '{}'.format(self.client_name)
 
     class Meta:
         ordering = ['order']

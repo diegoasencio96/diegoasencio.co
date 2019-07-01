@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36cd6a88-703c-4442-b0d1-8f517418a69b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webadmin/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/webadmin/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webadmin/landing/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webadmin/landing/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webadmin/landing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webadmin/landing/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webadmin/templates/landing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webadmin/templates/landing/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webadmin/landing/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="191" column="12" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="12" />
+            <state relative-caret-position="457">
+              <caret line="214" column="43" selection-start-line="214" selection-start-column="43" selection-end-line="214" selection-end-column="43" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -51,8 +51,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webadmin/templates/landing/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="448" column="48" selection-start-line="446" selection-start-column="52" selection-end-line="448" selection-end-column="48" />
+            <state relative-caret-position="119">
+              <caret line="553" column="13" selection-start-line="553" selection-start-column="13" selection-end-line="553" selection-end-column="13" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webadmin/landing/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
+            <state relative-caret-position="459">
               <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -105,8 +108,12 @@
     <findStrings>
       <find>blog</find>
       <find>mh-con</find>
+      <find>skil</find>
       <find>worke</find>
+      <find>left</find>
+      <find>element</find>
       <find>tec</find>
+      <find>url</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,8 +130,8 @@
         <option value="$PROJECT_DIR$/webadmin/landing/admin.py" />
         <option value="$PROJECT_DIR$/webadmin/webadmin/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/webadmin/landing/models.py" />
         <option value="$PROJECT_DIR$/webadmin/landing/views.py" />
+        <option value="$PROJECT_DIR$/webadmin/landing/models.py" />
         <option value="$PROJECT_DIR$/webadmin/templates/landing/index.html" />
       </list>
     </option>
@@ -158,6 +165,36 @@
               <item name="diegoasencio.co" type="462c0819:PsiDirectoryNode" />
               <item name="webadmin" type="462c0819:PsiDirectoryNode" />
               <item name="landing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="diegoasencio.co" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diegoasencio.co" type="462c0819:PsiDirectoryNode" />
+              <item name="webadmin" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="diegoasencio.co" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diegoasencio.co" type="462c0819:PsiDirectoryNode" />
+              <item name="webadmin" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="diegoasencio.co" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diegoasencio.co" type="462c0819:PsiDirectoryNode" />
+              <item name="webadmin" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="diegoasencio.co" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diegoasencio.co" type="462c0819:PsiDirectoryNode" />
+              <item name="webadmin" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="diegoasencio.co" type="b2602c69:ProjectViewProjectNode" />
@@ -222,12 +259,12 @@
       <updated>1561817105360</updated>
       <workItem from="1561817108834" duration="14466000" />
       <workItem from="1561844096578" duration="122000" />
-      <workItem from="1561946980592" duration="8688000" />
+      <workItem from="1561946980592" duration="12948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23276000" />
+    <option name="totallyTimeSpent" value="27536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -247,7 +284,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33006537" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18954249" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -303,16 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webadmin/landing/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webadmin/webadmin/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2997">
@@ -340,10 +367,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webadmin/resources/static/landing/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="82" column="3" lean-forward="true" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webadmin/landing/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webadmin/landing/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="191" column="12" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="12" />
+        <state relative-caret-position="457">
+          <caret line="214" column="43" selection-start-line="214" selection-start-column="43" selection-end-line="214" selection-end-column="43" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -352,8 +396,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webadmin/templates/landing/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="448" column="48" selection-start-line="446" selection-start-column="52" selection-end-line="448" selection-end-column="48" />
+        <state relative-caret-position="119">
+          <caret line="553" column="13" selection-start-line="553" selection-start-column="13" selection-end-line="553" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
