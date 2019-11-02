@@ -1,5 +1,5 @@
 https://github.com/darklow/django-suit/tarball/v2
-django==2.2.2
+django==2.2.4
 pillow
 django-ckeditor
 django-cleanup
